@@ -204,7 +204,8 @@ header nav ul li a:active, header nav ul li a:hover {
 
 .search i {
     background-color: white;
-    padding: 0.7rem 0.35rem;
+    padding: 0.6rem 0.7rem;
+    font-size: 1.2rem;
     border: none;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
