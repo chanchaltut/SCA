@@ -151,7 +151,7 @@ header nav {
     align-items: center;
     background: var(--var-main-bg);
     color: white;
-    padding: 1rem;
+    padding: 0.8rem;
 }
 
 .hamburger-menu {
@@ -193,9 +193,10 @@ header nav ul li a:active, header nav ul li a:hover {
 }
 
 .search input {
-    padding: 0.3rem 0.3rem 0.3rem 0.4rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
     border: none;
-    width: 7rem;
+    width: 10rem;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     box-shadow: 1px 1px 3px black inset;
@@ -203,7 +204,7 @@ header nav ul li a:active, header nav ul li a:hover {
 
 .search i {
     background-color: white;
-    padding: 0.3rem 0.35rem;
+    padding: 0.7rem 0.35rem;
     border: none;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -697,7 +698,7 @@ footer {
     }
 
     header nav ul li {
-        margin: 0.5rem 0;
+        margin: 1rem 0;
         font-size: 1.2rem;
     }
 
@@ -851,11 +852,17 @@ footer {
         padding: 1rem 1rem 0 1rem;
     }
 
-    .f-top-area1 img {
-        width: 12.5rem;
+    .footer-top {
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .f-top-area2{
+    .f-top-area1 img {
+        width: 12.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .f-top-area2 {
         margin-right: 0;
     }
 
@@ -883,7 +890,7 @@ footer {
         width: 22rem;
     }
 
-    .about-right img{
+    .about-right img {
         width: 90%;
     }
 }
