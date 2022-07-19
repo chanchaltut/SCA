@@ -353,7 +353,7 @@ header nav ul li a:active, header nav ul li a:hover {
 }
 
 .about-left p {
-    text-align: justify;
+    font-size: 1rem;
 }
 
 .about-right {
